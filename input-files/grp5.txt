@@ -1,0 +1,5 @@
+grp5_0:$y$j9T$NunaZCpRsJeQp5zYH7qwR0$.1feCOkdBhDiGhMHMQSswC2m23MFR0AW6nY/0JdkP86:1022:1022:,,,:/home/grp5_0:/bin/bash
+grp5_1:$y$j9T$HmNxkfkIuPEsMz4MuQgsz1$8ba7B4lfszNTlhvSZyrwcmvkUvfZJmMz/LSScpszMx7:1025:1025:,,,:/home/grp5_1:/bin/bash
+grp5_2:$y$j9T$Igt24b2mPkI6TH5L8xMNo1$OLN6fTUmqfhLVDtgwvrcv4ozHRZLkHBLMFQpHkNkEJ0:1028:1028:,,,:/home/grp5_2:/bin/bash
+grp5_3:$y$j9T$4IQQFvwi6w50tUgAZpElD0$5.xoDWt1as9pNCFdrj8htONITWuroCi3o8LlwhYbLZC:1031:1031:,,,:/home/grp5_3:/bin/bash
+grp5_4:$y$j9T$trJivi4QYHqmHTo27kbYw.$waieWSP3zXxf0pieJ2sLTkMNLYiwM9cnnLx9GzLumS5:1034:1034:,,,:/home/grp5_4:/bin/bash

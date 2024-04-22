@@ -1,0 +1,123 @@
+[Incremental:All]
+File = $JOHN/rules/6letter.rule
+MinLen = 6
+MaxLen = 6
+
+
+[Incremental:All]
+File = $JOHN/rules/7letter_cap.rule
+MinLen = 7
+MaxLen = 7
+[List.Rules:Wordlist]
+c
+c'$[0-9][0-9]
+c'$[0-9]
+c'[0-9][0-9]
+c'[0-9]
+c$[0-9][0-9]
+c$[0-9]
+c[0-9][0-9][0-9]
+c[0-9][0-9]
+c[0-9]
+c. [Incremental:All]
+c. [List.Rules:Wordlist]
+c.
+c..
+c...
+c....
+c.....
+c......
+
+
+[Incremental:All]
+File = $JOHN/rules/7letter_num.rule
+MinLen = 7
+MaxLen = 7
+[List.Rules:Wordlist]
+c
+c'$[0-9]
+c[0-9]
+c. [Incremental:All]
+c. [List.Rules:Wordlist]
+c.
+c..
+c...
+c....
+c.....
+c......
+
+
+
+[Incremental:All]
+File = $JOHN/rules/8letter_2subs_cap.rule
+MinLen = 8
+MaxLen = 8
+[List.Rules:Wordlist]
+c
+c'$[0-9][0-9]
+c'$[0-9]
+c'$[A-Za-z]
+c[0-9][0-9]
+c[0-9]
+c[A-Za-z]
+c. [Incremental:All]
+c. [List.Rules:Wordlist]
+c.
+c..
+c...
+c....
+c.....
+c......
+
+
+[Incremental:All]
+File = $JOHN/rules/8_10letter_2subs_cap_padding.rule
+MinLen = 8
+MaxLen = 12
+[List.Rules:Wordlist]
+c
+c'$[0-9][0-9]
+c'$[0-9]
+c'$[A-Za-z]
+c[0-9][0-9]
+c[0-9]
+c[A-Za-z]
+c. [Incremental:All]
+c. [List.Rules:Wordlist]
+c.
+c..
+c...
+c....
+c.....
+c......
+c
+c!
+c@
+c#
+c$
+c%
+c&
+c*
+c-
+c=
+c+
+c0
+c1
+c2
+c3
+c4
+c5
+c6
+c7
+c8
+c9
+c. [Incremental:All]
+c. [List.Rules:Wordlist]
+c.
+c..
+c...
+c....
+c.....
+c......
+
+
