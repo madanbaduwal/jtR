@@ -1,10 +1,10 @@
 # John the Ripper(jtR)
 
-There are two ways of cracking password using john the ripper. Important things about the john the ripper is the wordlist. 
+"There are two ways of cracking passwords using John the Ripper. An important aspect of John the Ripper is the wordlist.
 
-Rule base automatically extend existing wordlist with some rules, john the ripper automatically handle extending existing wordlist. 
+Rule-based methods automatically extend the existing wordlist with predefined rules. John the Ripper automatically handles the extension of the existing wordlist.
 
-In script base we first create desire sub-wordlist using existing wordlist, then use john the ripper.
+In script-based methods, we first create a desired sub-wordlist using the existing wordlist and then use John the Ripper."
 
 # Rules
 
@@ -55,7 +55,7 @@ john --show grp4_0_hash.txt
 
 ## Python script
 
-
+"In a Python script, we first create the desired sub-wordlist and then apply John the Ripper to the sub-wordlist."
 ```python
 
 python3 script.py
